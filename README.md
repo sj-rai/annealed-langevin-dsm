@@ -32,4 +32,4 @@ Cells are grouped in order, and most cells have some information about what's go
 5. Extensions on the baseline
 6. Evaluation Metrics
 
-Additionally, we have some plots showing the evolution of samples at various Noise Levels and Langevin Steps
+Additionally, we have some plots showing the evolution of samples at various Noise Levels and Langevin Steps.
