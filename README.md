@@ -8,7 +8,7 @@ This repository contains the implementation and empirical evaluation of **Noise-
 
 The core experimentation is contained entirely within a single, sequentially structured Jupyter Notebook. Follow the steps below to set up your environment and run the pipeline.
 
-### 1. Prerequisites & Environment Setup
+### Prerequisites & Environment Setup
 
 Ensure you have a Unix-based environment (macOS/Linux) with Python installed. Clone the repository and navigate into the project directory:
 
