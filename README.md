@@ -13,5 +13,12 @@ The core experimentation is contained entirely within a single, sequentially str
 Ensure you have a Unix-based environment (macOS/Linux) with Python installed. Clone the repository and navigate into the project directory:
 
 ```bash
-git clone [https://github.com/sj-rai/annealed-langevin-dsm.git](https://github.com/sj-rai/annealed-langevin-dsm.git)
+git clone https://github.com/sj-rai/annealed-langevin-dsm.git
 cd annealed-langevin-dsm
+```
+# Install required dependencies
+pip install torch numpy scipy matplotlib jupyter ipykernel
+
+open the experiment.ipynb notebook file
+
+To run the project, open the Jupyter notebook and execute the cells sequentially from start to finish.
