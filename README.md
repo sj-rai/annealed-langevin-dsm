@@ -16,9 +16,20 @@ Ensure you have a Unix-based environment (macOS/Linux) with Python installed. Cl
 git clone https://github.com/sj-rai/annealed-langevin-dsm.git
 cd annealed-langevin-dsm
 ```
-# Install required dependencies
+### Install required dependencies
+```bash
 pip install torch numpy scipy matplotlib jupyter ipykernel
+```
 
-open the experiment.ipynb notebook file
+To run the project, open the experiment.ipynb notebook file and execute the cells sequentially from start to finish. 
 
-To run the project, open the Jupyter notebook and execute the cells sequentially from start to finish.
+Cells are grouped in order, and most cells have some information about what's going on with the code
+
+1. Generate Data
+2. Define Network and noise Schedule
+3. Train Noise network using DSM objective
+4. Sample using Annealed Langevin Dynamics
+5. Extensions on the baseline
+6. Evaluation Metrics
+
+Additionally, we have some plots showing the evolution of samples at various Noise Levels and Langevin Steps
